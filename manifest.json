@@ -1,0 +1,40 @@
+{
+    "name": "Maimai Net Dark Mode",
+    "description": "Adds dark mode to Maimai Net",
+    "version": "1.0",
+    "manifest_version": 3,
+
+    "action": {
+        "default_title": "Maimai Net Dark Mode",
+        "default_popup": "popup.html"
+    },
+
+    "host_permissions": [
+        "https://maimaidx-eng.com/maimai-mobile/*"
+    ],
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "storage",
+        "webNavigation"
+    ],
+
+    "icons": {
+          "16": "icons/derakkuma-16.png",
+          "32": "icons/derakkuma-32.png",
+          "48": "icons/derakkuma-48.png",
+          "128": "icons/derakkuma-128.png"
+    },
+
+    "background": {
+        "service_worker": "scripts/background.js"
+    },
+
+    "web_accessible_resources": [
+        {
+            "resources": ["dark_mainet.css"],
+            "matches": ["*://*/*"]
+        }
+    ]
+        
+}

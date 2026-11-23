@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <style>
+        body {
+            width: 220px;
+            margin: 0;
+            padding: 16px;
+            font-family: Arial, sans-serif;
+            background: #203b5b;
+            color: #ffffff;
+        }
+
+        button {
+            width: 100%;
+            border: 0;
+            border-radius: 6px;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+            background: #4294be;
+            color: #ffffff;
+        }
+
+        button:hover {
+            background: #58a8cd;
+        }
+
+        #status {
+            margin: 0 0 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p id="status">Checking...</p>
+    <button id="toggle" type="button">Toggle dark mode</button>
+    <script src="scripts/popup.js"></script>
+</body>
+</html>

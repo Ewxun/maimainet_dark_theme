@@ -1,0 +1,87 @@
+/* Main background */
+body,
+.menu {
+    background-color: #203b5b !important;
+}
+
+/* Basic white blocks */
+.basic_block,
+.screw_block,
+.container,
+.music_score_block {
+    background-color: #303030 !important;
+    color: #ffffff !important;
+}
+
+/* Gray blocks */
+.gray_block,
+.town_block {
+    background-color: #585858 !important;
+    color: #ffffff !important;
+}
+
+/* Comment blocks (why do we have these?) */
+.friend_comment_block,
+.comment_block {
+    background-color: #4294be !important;
+    color: #ffffff !important;
+}
+
+/* Song record notes details table */
+.playlog_notes_detail tr:nth-child(even) th,
+.playlog_notes_detail tr:nth-child(even) td {
+    background: #002f5c !important;
+}
+
+.playlog_notes_detail tr:nth-child(odd) th,
+.playlog_notes_detail tr:nth-child(odd) td {
+    background: #2f393e !important;
+}
+
+.see_through_block {
+    background-color: #22222299 !important;
+    color: #ffffff !important;
+}
+
+/* OMG ITS GRASS */
+.footer {
+    background-color: #2d5c1e !important;
+}
+
+/* Force text colors (Some elements blend into the dark background) */
+/*
+    White:
+    table.collapse: Friends list stats
+
+    Gray:
+    .gray: Descriptions from shop and collections and certain settings text
+
+    Black:
+    .name_block: Username
+    
+    .music_lv_back: Records tab level text
+    .musiccount_block: Play Data tab stat text
+    .playlog_fl_block: Record detail page "Fast Late" text
+
+    .circle_challenge_block: Circle Challenge song info text
+    .circle_member_point_block: Circle member points
+    .circle_pointreward_block: Next reward points remaining
+*/
+
+table.collapse {
+    color: #ffffff !important;
+}
+
+.gray {
+    color: #aeaeae !important;
+}
+
+.music_lv_back,
+.name_block,
+.musiccount_block,
+.circle_member_point_block,
+.circle_challenge_block,
+.circle_pointreward_block,
+.playlog_fl_block {
+    color: #000000 !important;
+}
